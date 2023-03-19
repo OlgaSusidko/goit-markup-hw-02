@@ -1,6 +1,7 @@
 :root {
   --main-tittle-color: #2e2f42;
   --color-white: #ffffff;
+  --primary-color: #4d5ae5;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -27,7 +28,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--primary-color);
 }
 
 .logo:hover,
@@ -36,11 +37,12 @@ body {
 }
 
 .title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: var(--main-tittle-color, #2e2f42);
+  text-transform: capitalize;
+  color: var(--main-tittle-color);
 }
 
 .text {
@@ -59,6 +61,10 @@ body {
 .header-logo {
 }
 
+.logo-design {
+  color: var(--main-tittle-color);
+}
+
 .header-list {
   font-weight: 500;
   font-size: 16px;
@@ -68,6 +74,10 @@ body {
 }
 
 .header-item {
+}
+
+.header-link {
+  color: var(--main-tittle-color);
 }
 
 .header-link:hover,
@@ -91,7 +101,7 @@ body {
 
 /* ---------------Герой--------------- */
 .hero {
-  background-color: #8c8d9c;
+  background-color: var(--main-tittle-color);
 }
 
 .hero-title {
@@ -113,6 +123,12 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   cursor: pointer;
+  background-color: var(--primary-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* ---------------Переваги--------------- */
@@ -143,10 +159,12 @@ body {
 
 /* ------------Наша команда------------ */
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
 }
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
@@ -164,28 +182,14 @@ body {
   color: #434455;
 }
 
-/* ------------Наша команда------------ */
-
-.footer {
-}
-.footer-link {
-}
-.link {
-}
-.footer-text {
-  color: #f4f4fd;
-}
-
 /* ------------Футер------------ */
 
 .footer {
-  background-color: #646469;
+  background-color: var(--main-tittle-color);
 }
 .footer-logo {
 }
-.link {
-}
+
 .footer-text {
-}
-.text {
+  color: #f4f4fd;
 }

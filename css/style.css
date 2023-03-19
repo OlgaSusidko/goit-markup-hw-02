@@ -1,0 +1,188 @@
+:root {
+  --main-tittle-color: #2e2f42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-tittle-color, #2e2f42);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ---------------Шапка сайту--------------- */
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+}
+
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.header-item {
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address:hover,
+.header-address:focus {
+  color: #404bbf;
+}
+
+/* ---------------Герой--------------- */
+.hero {
+  background-color: #8c8d9c;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ---------------Переваги--------------- */
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-title-text {
+}
+.advantages-text {
+  color: #434455;
+}
+
+/* ------------Чим ми займаємось------------ */
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+
+.about-item {
+}
+
+/* ------------Наша команда------------ */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+
+.team-item {
+}
+.team-title-photo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-text {
+  text-align: center;
+  color: #434455;
+}
+
+/* ------------Наша команда------------ */
+
+.footer {
+}
+.footer-link {
+}
+.link {
+}
+.footer-text {
+  color: #f4f4fd;
+}
+
+/* ------------Футер------------ */
+
+.footer {
+  background-color: #434455;
+}
+.footer-logo {
+}
+.link {
+}
+.footer-text {
+}
+.text {
+}

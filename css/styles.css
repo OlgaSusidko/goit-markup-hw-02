@@ -37,6 +37,17 @@ body {
   color: #404bbf;
 }
 
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
 .title {
   font-size: 36px;
   line-height: 1.11;
@@ -50,6 +61,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-tittle-color);
 }
 
 /* ---------------Шапка сайту--------------- */
@@ -118,15 +137,7 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: var(--color-white);
-  cursor: pointer;
   background-color: var(--primary-color);
 }
 
@@ -145,11 +156,6 @@ body {
 .advantages-item {
 }
 .advantages-title-text {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-tittle-color);
 }
 .advantages-text {
   color: var(--text-color);
@@ -202,4 +208,19 @@ body {
 
 .footer-text {
   color: #f4f4fd;
+}
+
+/* ------------ПОРТФОЛІО------------ */
+.filter {
+}
+
+.filter-btn {
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--color-white);
+  background-color: #404bbf;
 }

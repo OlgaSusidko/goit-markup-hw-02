@@ -139,17 +139,17 @@ body {
 .advantages {
 }
 .advantages-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-tittle-color);
 }
 .advantages-list {
 }
 .advantages-item {
 }
 .advantages-title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-tittle-color);
 }
 .advantages-text {
   color: var(--text-color);
@@ -173,10 +173,10 @@ body {
 .team-title {
 }
 .team-list {
-  background-color: #ffffff;
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 .team-title-photo {
   font-weight: 500;

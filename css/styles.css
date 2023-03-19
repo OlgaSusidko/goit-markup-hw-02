@@ -2,12 +2,13 @@
   --main-tittle-color: #2e2f42;
   --color-white: #ffffff;
   --primary-color: #4d5ae5;
+  --text-color: #434455;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--color-white);
-  color: #434455;
+  color: var(--text-color);
 }
 
 .list {
@@ -23,7 +24,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -91,11 +92,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
-.header-address:hover,
-.header-address:focus {
+.header-address-link {
+  color: var(--text-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
   color: #404bbf;
 }
 
@@ -135,6 +139,11 @@ body {
 .advantages {
 }
 .advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-tittle-color);
 }
 .advantages-list {
 }
@@ -143,7 +152,7 @@ body {
 .advantages-title-text {
 }
 .advantages-text {
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* ------------Чим ми займаємось------------ */
@@ -179,7 +188,7 @@ body {
 }
 .team-text {
   text-align: center;
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* ------------Футер------------ */
@@ -187,7 +196,8 @@ body {
 .footer {
   background-color: var(--main-tittle-color);
 }
-.footer-logo {
+.footer-logo-design {
+  color: #f4f4fd;
 }
 
 .footer-text {

@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 .list {
@@ -176,7 +178,7 @@ body {
 /* ------------Футер------------ */
 
 .footer {
-  background-color: #434455;
+  background-color: #646469;
 }
 .footer-logo {
 }
